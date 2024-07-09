@@ -206,7 +206,7 @@ function WatchedList({ watched, onDeleteWatched }) {
   );
 }
 
-function WatchedMovie({ movie, onDeleteWatched = onDeleteWatched }) {
+function WatchedMovie({ movie, onDeleteWatched }) {
   return (
     <li>
       <img src={movie.poster} alt={`${movie.Title} poster`} />
